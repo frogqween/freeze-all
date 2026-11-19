@@ -1,0 +1,86 @@
+FREEZE ALL  -  one-click freeze for Ableton Live
+================================================
+
+Drop it on your Main track, click FREEZE ALL, and every track in your set
+that can be frozen gets frozen in ONE go. Handy before sending a project to
+a mix engineer or a collaborator.
+
+  - Freezes every track at once (one Freeze, one progress bar)
+  - Skips anything Live can't freeze, like empty MIDI trigger tracks
+  - Leaves tracks that are already frozen alone
+  - Opens your groups while it works, then folds them back
+  - Shows how many tracks it froze and anything it skipped
+
+
+WHAT YOU NEED
+-------------
+  - Ableton Live 12 with Max for Live (Suite, or Standard + Max for Live)
+  - Windows 10/11 or macOS
+
+
+INSTALL
+-------
+1. Unzip this file.
+
+2. Move the whole "Freeze All" folder into your Ableton User Library:
+
+     Windows:  Documents\Ableton\User Library
+     Mac:      Music/Ableton/User Library
+
+   Keep everything in that folder together - the device needs the files
+   next to it.
+
+3. In Live's browser, click "User Library", open "Freeze All", and drag
+   "Freeze All.amxd" onto your Main (master) track.
+
+
+MAC ONLY - ONE-TIME PERMISSION
+------------------------------
+Freeze All works the same way you would by hand (select tracks, then
+Edit > Freeze), so macOS needs to let Live use the keyboard and menus:
+
+1. Open System Settings > Privacy & Security > Accessibility.
+2. Turn on "Live" (Ableton Live). If it isn't listed, click "+" and add it
+   from your Applications folder.
+3. The first time you click FREEZE ALL, macOS may ask whether Live can
+   control "System Events" - click OK.
+4. Restart Live.
+
+If the device says "Mac blocked it", it's this permission.
+
+
+HOW TO USE
+----------
+1. Click FREEZE ALL.
+2. Hands off the keyboard and mouse for a few seconds while it selects
+   your tracks.
+3. Live shows its own freeze progress bar. When it's done the device says
+   "Froze X tracks - Ready to send".
+
+Click the button again while it's working to stop it.
+
+
+GOOD TO KNOW
+------------
+  - Tracks Live can't freeze (for example an empty MIDI track that only
+    triggers something else) are left out automatically.
+  - On Windows, a track like that in the middle of your set is taken out of
+    the selection, so it's still one freeze. On Mac, Live freezes the tracks
+    above it and below it separately.
+  - Freezing long tracks with heavy plugins can take a while - that's Live
+    rendering, same as freezing by hand.
+  - To undo, select the tracks and choose Edit > Unfreeze Tracks.
+
+
+TROUBLESHOOTING
+---------------
+  "Couldn't freeze" / nothing happens
+      Make sure all the files are still together in the Freeze All folder,
+      and that Live's window is in front while it works.
+
+  Mac: "Mac blocked it"
+      See MAC ONLY above.
+
+  It skipped a track
+      The device lists skipped tracks by name. Those are tracks Live itself
+      won't freeze.
